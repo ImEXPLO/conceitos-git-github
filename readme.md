@@ -48,6 +48,8 @@ git add .
 ```
 **Ele serve para salvar o estado do arquivo pra ser salvo na nuvem.**
 
+Antes de commitar, podemos rodar o **git status** novamente pra vermos se tem algum arquivo faltante, caso sim, ele aparecerá em Vermelho, se aparecer algum, use o comando do **git add .**
+
 Vamos agora commitar, ou seja, preparar o nosso arquivo pra ser salvo na nuvem, e usamos outro comando do git que é;
 
 ```bash
