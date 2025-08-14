@@ -23,6 +23,8 @@ git config --global user.email victor.silva312@fatec.sp.gov.br
 ## Comandos do Git
 Para iniciar o GIT em uma pasta de computador utilizamos o init.
 **IMPORTANTE:** Só é executado uma vez
+**IMPORTANTE:** Isso vale pra todo comando, se não apareceu nada na hora que você digitou o comando, é por que deu certo!
+
 ```bash
 git init
 ```
@@ -32,3 +34,23 @@ Para verificar a situação do repositório (pasta) usamos o status a qualquer m
 ```bash
 git status
 ```
+
+Após isso, você pode utilizar no seu terminal um comando para abrir o Visual Code naquela pasta
+
+```bash
+code .
+```
+
+Agora ele irá abrir o Visual Code. Você pode criar um readme.md, ou seja, um Leia-me para o seu repositório GIT, igual a esse que estamos criando. Logo após criar esse read-me (ou upar algum arquivo seu pronto, tanto faz), usaremos outro comando do git para poder dizer pro GitHub que queremos que aquele arquivo seja incluso na nuvem, ele é o:
+
+```bash
+git add .
+```
+**Ele serve para salvar o estado do arquivo pra ser salvo na nuvem.**
+
+Vamos agora commitar, ou seja, preparar o nosso arquivo pra ser salvo na nuvem, e usamos outro comando do git que é;
+
+```bash
+git commit -m "Teste de Mensagem" 
+```
+o "-m" no comando do "git commit" é **usado para demonstrarmos uma mensagem nesse commit**, então, ele serviria para a gente lembrar do que foi feito a alteração, para que se **caso você não se lembre do que se trata o seu commit, ele será um lembrete.**
