@@ -73,5 +73,5 @@ git pull
 Para enviar as alterações (Os commits) do PC para o GitHub utilizamos o push. <br>
 **IMPORTANTE**: Sempre deve baixar a última versão da nuvem antes de enviar a atual do computador
 ```bash
-git push-
+git push
 ```
