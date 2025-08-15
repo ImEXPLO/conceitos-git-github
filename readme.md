@@ -4,11 +4,11 @@ Este arquivo tem como objetivo armazenar os comandos básicos para utilização 
 ## Configuração Inicial 
 Rode os comandos abaixo no terminal (CMD ou GitBash) do seu computador.
 ```bash
-git config --global user.name "Nome do Utilizador"
+git config --global user.name <Nome do Utilizador>
 ```
 
 ```bash
-git config --global user.email "Email do Utilizador (sem aspas)"
+git config --global user.email <Email do Utilizador (sem aspas)>
 ```
 
 ## Exemplo ##
@@ -23,10 +23,17 @@ git config --global user.email victor.silva312@fatec.sp.gov.br
 ## Comandos do Git
 Para iniciar o GIT em uma pasta de computador utilizamos o init.
 **IMPORTANTE:** Só é executado uma vez
-**IMPORTANTE:** Isso vale pra todo comando, se não apareceu nada na hora que você digitou o comando, é por que deu certo!
+**IMPORTANTE:** Isso vale pra uma grande maioria dos comandos, se não apareceu nada na hora que você digitou o comando, é por que deu certo!
 
 ```bash
 git init
+```
+
+Para vincular o projeto ao GitHub utilizamos o comando remote, basta o repositório estar criado no GitHub e seguir a segunda opção da lista de comandos que aparece no site.<br>
+**IMPORTANTE:** Depois do remote deve ser executados os outros 2 comandos da página.
+
+```bash
+git remote add origin < url_repositorio_github >
 ```
 
 Para verificar a situação do repositório (pasta) usamos o status a qualquer momento
