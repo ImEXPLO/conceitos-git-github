@@ -63,3 +63,15 @@ Vamos agora commitar, ou seja, preparar o nosso arquivo pra ser salvo na nuvem, 
 git commit -m "Teste de Mensagem" 
 ```
 o "-m" no comando do "git commit" é **usado para demonstrarmos uma mensagem nesse commit**, então, ele serviria para a gente lembrar do que foi feito a alteração, para que se **caso você não se lembre do que se trata o seu commit, ele será um lembrete.**
+
+Para baixar as alterações que estão **apenas** no GitHub utilizamos o pull. <br>
+**IMPORTANTE**: Sempre deve baixar a última versão da nuvem antes de enviar a atual do computador
+```bash
+git pull
+```
+
+Para enviar as alterações (Os commits) do PC para o GitHub utilizamos o push. <br>
+**IMPORTANTE**: Sempre deve baixar a última versão da nuvem antes de enviar a atual do computador
+```bash
+git push-
+```
